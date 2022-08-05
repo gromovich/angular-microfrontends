@@ -2,6 +2,8 @@
 
 This project shows an example of using Webpack 5 Module Federation with [Nx](https://nx.dev/) 14.5.4 and Angular using shared library.
 
+![angular-microfrontends](https://user-images.githubusercontent.com/17511629/183092789-e388dd56-2969-46e6-93a9-95db11646c41.png)
+
 ## Creating an example workspace
 
 ### Create an empty Nx workspace
