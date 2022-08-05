@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  color: #222;
+  background-color: #fff;
+  border: 2px solid #222;
+  border-radius: 5px;
+  outline: none;
+  -webkit-appearance: textfield;
+}
+
+input:focus {
+  box-shadow: 0px 0px 0 3px #ccc;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #222;
+  border: 2px solid #222;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:focus {
+  box-shadow: 0px 0px 0 3px #ccc;
+}
+
+button:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}

@@ -23,3 +23,21 @@ npm install --save-dev @nrwl/angular
 ```
 nx g @nrwl/angular:host host --remotes=profile
 ```
+
+### Serve host to view it in your browser
+
+```
+nx serve host --open
+```
+
+### Serve host to view it in your browser
+
+```
+nx serve host --open
+```
+
+### To run remote in development mode, use the --devRemotes option
+
+```
+nx serve host --open --devRemotes=profile
+```

@@ -1,0 +1,12 @@
+<h2>Profile</h2>
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <label for="username">Update username</label>
+  <input
+    id="username"
+    type="text"
+    placeholder="Username"
+    formControlName="username"
+  />
+  <button [disabled]="form.invalid" type="submit">Submit</button>
+</form>
+<p *ngIf="message$ | async as message" class="message">{{ message }}</p>

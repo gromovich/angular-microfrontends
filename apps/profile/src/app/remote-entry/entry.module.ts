@@ -1,18 +1,19 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { RemoteEntryComponent } from './entry.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { ProfileComponent } from '../components/profile/profile.component';
 
 @NgModule({
-  declarations: [RemoteEntryComponent, NxWelcomeComponent],
+  declarations: [ProfileComponent],
   imports: [
     CommonModule,
+    ReactiveFormsModule,
     RouterModule.forChild([
       {
         path: '',
-        component: RemoteEntryComponent,
+        component: ProfileComponent,
       },
     ]),
   ],
