@@ -1,4 +1,7 @@
-<h1>👋 Hello there, <span>%username%</span></h1>
+<h1>
+  👋 Hello there,
+  <span>{{ (username$ | async) ?? '%username%' }}</span>
+</h1>
 
 <ul class="menu">
   <li class="menu-item"><a routerLink="/" class="menu-link">Home</a></li>

@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "host": "apps/host",
-    "profile": "apps/profile"
+    "profile": "apps/profile",
+    "store": "libs/store"
   }
 }

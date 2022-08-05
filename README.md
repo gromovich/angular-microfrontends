@@ -41,3 +41,11 @@ nx serve host --open
 ```
 nx serve host --open --devRemotes=profile
 ```
+
+### Generate shared library
+
+```
+nx g @nrwl/angular:library store
+```
+
+With the help of **withModuleFederation** function all libraries (npm and workspace) are shared singletons by default.
