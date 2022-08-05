@@ -17,3 +17,9 @@ cd angular-microfrontends
 ```
 npm install --save-dev @nrwl/angular
 ```
+
+### Generate the host and remote applications
+
+```
+nx g @nrwl/angular:host host --remotes=profile
+```
