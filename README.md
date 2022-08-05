@@ -1,6 +1,6 @@
 # Angular Microfrontends
 
-This project shows an example of using Webpack 5 Module Federation with [Nx](https://nx.dev/) 14.5.4 and Angular using shared module.
+This project shows an example of using Webpack 5 Module Federation with [Nx](https://nx.dev/) 14.5.4 and Angular using shared library.
 
 ## Creating an example workspace
 
@@ -30,12 +30,6 @@ nx g @nrwl/angular:host host --remotes=profile
 nx serve host --open
 ```
 
-### Serve host to view it in your browser
-
-```
-nx serve host --open
-```
-
 ### To run remote in development mode, use the --devRemotes option
 
 ```
@@ -49,3 +43,8 @@ nx g @nrwl/angular:library store
 ```
 
 With the help of **withModuleFederation** function all libraries (npm and workspace) are shared singletons by default.
+
+## Further Reading
+
+- [Nx: Faster Builds with Module Federation](https://nx.dev/module-federation/faster-builds)
+- [Module Federation Examples by creators of Module Federation](https://github.com/module-federation/module-federation-examples)
